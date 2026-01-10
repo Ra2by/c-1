@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.background {
+  background-image: url(/tree.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 800px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar h1 {
+  color: #ff7101;
+}
+.course h1 {
+  margin-bottom: 15px;
+  font-size: 50px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin-bottom: 50px;
+  padding: 20px;
+}
+.container a {
+  text-decoration: none;
+  color: white;
+}
+.home:hover {
+  color: #ff7101;
+}
+.about:hover {
+  color: #ff7101;
+}
+.service:hover {
+  color: #ff7101;
+}
+.design:hover {
+  color: #ff7101;
+}
+.contact:hover {
+  color: #ff7101;
+}
+.input-container {
+  position: relative;
+}
+.btn {
+  position: absolute;
+  right: 0px;
+  background-color: #ff7101;
+  border: none;
+  padding-block: 6px;
+  padding-inline: 8px;
+  border-radius: 5px;
+}
+.search {
+  border: 2px solid #ff7101;
+  padding-block: 5px;
+  border-radius: 5px;
+}
+
+.dev {
+  color: #ff7101;
+}
+.join {
+  padding: 10px 15px;
+  font-size: 15px;
+  border-style: none;
+  border-radius: 8px;
+  background-color: #ff7101;
+  margin-top: 15px;
+}
+.join:hover {
+  background-color: white;
+}
+.secnd {
+  display: flex;
+  max-width: 800px;
+  justify-content: space-between;
+  padding: 20px;
+}
+.login {
+  background-color: aliceblue;
+  padding: 10px 25px;
+  border-style: none;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+.login:hover {
+  background-color: #ff7101;
+}
+.item {
+  width: 300px;
+  background-color: black;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+}
+
+.parentinput {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.one {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid red;
+  background-color: black;
+  width: 100%;
+}
+
+.login2 {
+  background-color: #ff7101;
+  padding: 10px 40px;
+  border-style: none;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.login2:hover {
+  background-color: white;
+}
+.item p {
+  color: white;
+}
+.up {
+  color: #ff7101;
+}
+.with {
+  color: aliceblue;
+  margin-top: 10px;
+  font-size: 11px;
+}
+i {
+  background-color: white;
+  gap: 10px;
+  margin-top: 10px;
+}
