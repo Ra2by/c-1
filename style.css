@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .background {
-  background-image: url(/tree.jpg);
+  background-image: url(tree.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
